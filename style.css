@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f2f2f2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+html {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+input[type="number"] {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 16px;
+}
+
+/* calss */
+.input-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* id */
+#all {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#calculate {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#calculate:hover {
+  background-color: #45a049;
+}
+
+#eqqqq {
+  margin-top: 30px;
+}
+
+#eq {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+#operator {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 16px;
+}
